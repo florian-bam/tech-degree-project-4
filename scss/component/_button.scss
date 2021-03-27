@@ -17,23 +17,44 @@
 
 .default {
     background-color: $link;
+    transition: background-color .6s ease-in;
+    &:hover {
+        background-color: lighten($link, 15%);
+    }
 }
 
 .error {
     background-color: $error;
+    transition: background-color .6s ease-in;
+    &:hover {
+        background-color: lighten($error, 15%);
+    }
 }
 
 .info {
     background-color: $info;
+    transition: background-color .6s ease-in;
+    &:hover {
+        background-color: lighten($info, 15%);
+    }
 }
 
 .success {
     background-color: $success;
+    transition: background-color .6s ease-in;
+    &:hover {
+        background-color: lighten($success, 15%);
+    }
 }
 
 .warning {
     background-color: $warning;
+    transition: background-color .6s ease-in;
+    &:hover {
+        background-color: lighten($warning, 15%);
+    }
 }
+
 @media (min-width: $med) {
     .btn + .btn {
         margin-left: 10px;

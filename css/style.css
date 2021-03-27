@@ -551,7 +551,6 @@ a {
     align-items: center;
   }
 }
-
 .nav-link {
   text-align: center;
   border-radius: 5px;
@@ -565,7 +564,6 @@ a {
     flex-basis: 100px;
   }
 }
-
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
@@ -591,22 +589,42 @@ a {
 
 .default {
   background-color: #51ddfc;
+  transition: background-color 0.6s ease-in;
+}
+.default:hover {
+  background-color: #9cecfd;
 }
 
 .error {
   background-color: #e4757a;
+  transition: background-color 0.6s ease-in;
+}
+.error:hover {
+  background-color: #f1b5b8;
 }
 
 .info {
   background-color: #927bc1;
+  transition: background-color 0.6s ease-in;
+}
+.info:hover {
+  background-color: #bdafd9;
 }
 
 .success {
   background-color: #63cc82;
+  transition: background-color 0.6s ease-in;
+}
+.success:hover {
+  background-color: #9ddfb0;
 }
 
 .warning {
   background-color: #fd7856;
+  transition: background-color 0.6s ease-in;
+}
+.warning:hover {
+  background-color: #feb4a2;
 }
 
 @media (min-width: 768px) {
